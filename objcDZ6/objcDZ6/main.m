@@ -13,6 +13,7 @@
 void selectCalculatorOperation (Calculator *calc) {
     int menu_item = 0;
     
+    
     printf("\nВыберете, что вы хотите сделать в введенными числами.");
     printf("\n___\n");
     printf(" 1: Сложение\n");
@@ -62,6 +63,5 @@ int main(int argc, const char * argv[]) {
         Calculator *calc = [Calculator new];
         loadNumbers(calc);
     }
-    
     return 0;
 }
